@@ -1,2 +1,2 @@
 # Users
-* GraphQl start
+* GraphQL start
