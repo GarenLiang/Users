@@ -1,0 +1,30 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarenLiang/Users.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarenLiang/Users/issues"
+  },
+  "homepage": "https://github.com/GarenLiang/Users#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "express": "^4.14.1",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1",
+    "json-server": "^0.9.5",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0"
+  }
+}
